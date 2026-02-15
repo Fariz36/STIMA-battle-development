@@ -201,7 +201,8 @@ async function exportFile(data: Uint8Array, fileName: string) {
         nativeAPI.exportMap(Array.from(data), fileName)
     } else {
         const mimeType = 'application/octet-stream'
-        const blob = new Blob([data], { type: mimeType })
+        const normalizedData = new Uint8Array(data)
+        const blob = new Blob([normalizedData.buffer], { type: mimeType })
         const url = window.URL.createObjectURL(blob)
 
         const link = document.createElement('a')
