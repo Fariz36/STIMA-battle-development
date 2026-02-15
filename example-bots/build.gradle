@@ -10,7 +10,7 @@ project.ext.release_players='NONE'
 
 repositories {
   mavenCentral()
-  maven {url "https://oss.sonatype.org/content/repositories/snapshots/"}
+  maven {url "https://maven.bioviz.org/repo2/"}
 }
 
 sourceSets {
