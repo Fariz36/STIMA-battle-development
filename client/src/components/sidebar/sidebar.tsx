@@ -179,8 +179,8 @@ export const Sidebar: React.FC = () => {
                     <div className="flex justify-between items-center">
                         {open && (
                             <>
-                                <p className="px-2 whitespace-nowrap font-extrabold text-xl">{`BATTLECODE ${BATTLECODE_YEAR}`}</p>
-                                <p className="text-xs">{`v${CLIENT_VERSION}`}</p>
+                                <p className="px-2 whitespace-nowrap font-extrabold text-xl">{`STIMA-BATTLE 2026`}</p>
+                                <p className="text-xs"></p>
                             </>
                         )}
                         <div className="flex">
