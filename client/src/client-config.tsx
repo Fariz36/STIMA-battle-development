@@ -56,7 +56,7 @@ const DEFAULT_CONFIG = {
 }
 
 const configDescription: Record<keyof ClientConfig, string> = {
-    showAllIndicators: '[This is proof that the scaffold is pointing to our development repo] Show all indicator dots and lines',
+    showAllIndicators: 'Show all indicator dots and lines',
     showAllRobotRadii: 'Show all robot view and attack radii',
     showTimelineMarkers: 'Show user-generated markers on the timeline',
     showHealthBars: 'Show health bars below all robots',
